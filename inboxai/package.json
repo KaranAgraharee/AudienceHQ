@@ -6,10 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
+    "lint": "eslint"
   },
   "dependencies": {
-    "@google/generative-ai": "^0.24.1",
     "bullmq": "^5.63.2",
     "clsx": "^2.1.1",
     "dotenv": "^17.2.3",
@@ -42,3 +41,4 @@
     "typescript": "^5.9.3"
   }
 }
+
