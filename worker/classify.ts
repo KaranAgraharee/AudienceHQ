@@ -1,5 +1,5 @@
-import { groq } from "@/lib/groq";
-import Message from "@/models/Message";
+import { groq } from "./lib/groq";
+import Message from "./models/Message";
 
 export default async function classifyMessage(messageId: string) {
   const msg = await Message.findById(messageId);
